@@ -123,3 +123,142 @@ Answer
 - Backup
 - Change Tracking
 - Rollback Support
+
+---
+
+# Git Advanced Interview Questions
+
+## Q15. What is git diff?
+
+Answer
+
+Git Diff compares the current version of a file with its last committed version and displays the differences.
+
+---
+
+## Q16. What do the symbols '+' and '-' mean in git diff?
+
+Answer
+
++ indicates a newly added line.
+
+- indicates a deleted line.
+
+---
+
+## Q17. What is git restore?
+
+Answer
+
+Git Restore restores a file to its last committed state by removing uncommitted changes.
+
+---
+
+## Q18. What is a Git Branch?
+
+Answer
+
+A Git Branch is an independent line of development used to develop features or fix bugs without affecting the main branch.
+
+---
+
+## Q19. Why do companies use branches?
+
+Answer
+
+- Feature development
+- Bug fixing
+- Team collaboration
+- Safe experimentation
+
+---
+
+## Q20. What is the Main Branch?
+
+Answer
+
+The Main Branch is the primary branch containing the stable version of the project.
+
+---
+
+## Q21. What does git switch do?
+
+Answer
+
+Git Switch changes the current working branch.
+
+---
+
+## Q22. What is git remote?
+
+Answer
+
+Git Remote displays the configured remote repository names.
+
+---
+
+## Q23. What does git remote -v display?
+
+Answer
+
+It displays the fetch and push URLs of the connected remote repository.
+
+---
+
+## Q24. What is git clone?
+
+Answer
+
+Git Clone downloads a GitHub repository to a local computer.
+
+---
+
+## Q25. Difference between git clone and git pull?
+
+Answer
+
+git clone
+
+- Downloads an entire repository.
+- Used only once while setting up the project.
+
+git pull
+
+- Downloads only the latest updates.
+- Used regularly after cloning.
+
+---
+
+## Q26. Difference between git add and git restore?
+
+Answer
+
+git add
+
+Stages files for the next commit.
+
+git restore
+
+Discards uncommitted changes and restores the last committed version.
+
+---
+
+## Q27. Difference between git push and git pull?
+
+Answer
+
+git push
+
+Uploads local commits to GitHub.
+
+git pull
+
+Downloads the latest commits from GitHub.
+
+---
+
+## Q28. Why is git diff important?
+
+Answer
+
+Git Diff helps developers review changes before committing and prevents accidental code modifications.
