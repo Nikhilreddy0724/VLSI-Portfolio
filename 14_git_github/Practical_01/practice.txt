@@ -1,5 +1,10 @@
+
 Git Practice Day 1
 
 Learning Git Commands
 
 Repository Practice
+
+Successfully created my first Git practical.
+
+Repository synchronized with GitHub.
